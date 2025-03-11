@@ -39,8 +39,10 @@
    text-align: center;
    padding-top: 45vh;
 }
-.banner_header {
+.banner_header div {
    font-size: 72px;
+   overflow: hidden; 
+   width: 100%;
 }
 .banner_text {
    font-size: 36px;
@@ -53,7 +55,6 @@
     min-height: 100px;
     padding-top: 30px;
     padding-left: 30px;
-    padding-right: 30px;
 }
 .body {
    margin: 0;
@@ -61,7 +62,7 @@
 }
 /*Detta är styling för sektionen USP*/
 .usp{
-   height: 50vh;
+   height: auto;
    vertical-align: middle;
    
 }
@@ -76,6 +77,7 @@
 .text_usp {
    font-size: 36px;
    text-align: center;
+   display: none;
 }
 
 /*Detta är styling för sektionen About*/
